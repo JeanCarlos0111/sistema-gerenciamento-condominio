@@ -1,1 +1,0 @@
-# Sistema de Gestão Auxiliar em Condominios
