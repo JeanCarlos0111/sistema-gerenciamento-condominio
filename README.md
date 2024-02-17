@@ -1,7 +1,7 @@
 <h1 align="center"> Sistema de Gestão Auxiliar para Condominios 🏠</h1>
 
 <p align="center">
-    <img src="./_src/">
+    <img src="./_src/aplicativo.png">
 </p>
 
 <p align="center">
