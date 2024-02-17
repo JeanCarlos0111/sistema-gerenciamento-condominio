@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de Gestão Auxiliar em Condominios", "Sistema de Gestão Auxiliar em Condominios\Sistema de Gestão Auxiliar em Condominios.csproj", "{DBCBD592-4C0D-4851-A1FC-8A980F92164F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCBD592-4C0D-4851-A1FC-8A980F92164F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCBD592-4C0D-4851-A1FC-8A980F92164F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCBD592-4C0D-4851-A1FC-8A980F92164F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCBD592-4C0D-4851-A1FC-8A980F92164F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB37D789-ED0D-408B-8C2E-686A0B226D69}
+	EndGlobalSection
+EndGlobal
