@@ -127,7 +127,7 @@
             // panel2
             // 
             panel2.BackColor = Color.Transparent;
-            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
+            panel2.BackgroundImage = Properties.Resources.Branco;
             panel2.Controls.Add(pictureBox3);
             panel2.Controls.Add(pictureBox2);
             panel2.Controls.Add(label4);
@@ -240,10 +240,11 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = Properties.Resources.Fundo_app3;
-            pictureBox1.Location = new Point(0, 23);
+            pictureBox1.Image = Properties.Resources.Fundo_app4;
+            pictureBox1.Location = new Point(0, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(821, 453);
+            pictureBox1.Size = new Size(821, 460);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
             // 
