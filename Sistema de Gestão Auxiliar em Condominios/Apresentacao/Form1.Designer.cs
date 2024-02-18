@@ -42,16 +42,16 @@
             label3 = new Label();
             textBox1 = new TextBox();
             label2 = new Label();
-            pictureBox1 = new PictureBox();
             pictureBox5 = new PictureBox();
             button3 = new Button();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -211,16 +211,6 @@
             label2.Text = "Usuario";
             label2.Click += label2_Click;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 23);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(801, 432);
-            pictureBox1.TabIndex = 7;
-            pictureBox1.TabStop = false;
-            // 
             // pictureBox5
             // 
             pictureBox5.BackgroundImage = Properties.Resources.Fundo_app;
@@ -247,6 +237,16 @@
             button3.UseVisualStyleBackColor = true;
             button3.Visible = false;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = Properties.Resources.Fundo_app3;
+            pictureBox1.Location = new Point(0, 23);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(821, 453);
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -271,8 +271,8 @@
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -288,11 +288,11 @@
         private Label label4;
         private TextBox textBox2;
         private Label label3;
-        private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private Button button3;
+        private PictureBox pictureBox1;
     }
 }

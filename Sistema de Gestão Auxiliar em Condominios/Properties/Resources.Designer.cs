@@ -73,9 +73,49 @@ namespace Sistema_de_Gestão_Auxiliar_em_Condominios.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Branco {
+            get {
+                object obj = ResourceManager.GetObject("Branco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fundo_app {
             get {
                 object obj = ResourceManager.GetObject("Fundo app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fundo_app1 {
+            get {
+                object obj = ResourceManager.GetObject("Fundo app1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fundo_app2 {
+            get {
+                object obj = ResourceManager.GetObject("Fundo app2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fundo_app3 {
+            get {
+                object obj = ResourceManager.GetObject("Fundo app3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
