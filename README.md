@@ -48,7 +48,7 @@ string connectionString = @"Data Source="SEU SERVER"\SQLEXPRESS;Initial Catalog=
 
 As ferramentas a seguir estão sendo usadas para o desenvolvimento do projeto:
 
-- IDE: <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+- IDE: <a href="/pt-br/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030">Visual Studio 2022 Community Edition</a>
 - MySQL: <a href="https://www.mysql.com/">MySQL Workbench</a>
 - MsSQL: <a href = "https://www.microsoft.com/pt-br/sql-server/sql-server-downloads"> MsSQL Server</a>
 
