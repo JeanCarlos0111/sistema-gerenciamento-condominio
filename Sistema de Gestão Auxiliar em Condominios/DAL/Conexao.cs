@@ -1,23 +1,20 @@
-﻿using System.Data.SqlClient;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 
 namespace Sistema_de_Gestão_Auxiliar_em_Condominios.DAL
 {
     public class Conexao
     {
-        SqlConnection con = new SqlConnection();
+        MySqlConnection con = new MySqlConnection();
 
-        public Conexao() 
+        // String para abrir a conexão com o banco de dados
+        public Conexao()
         {
-            con.ConnectionString = @"Data Source=DESKTOP-DFKVC4V\SQLEXPRESS;Initial Catalog=sgc;Integrated Security=True;";
+            con.ConnectionString = "server = localhost; port = 3306; database = sgc; uid = root; password = 1234"; // String para abrir conexão com o banco de dados MySQL
+            // String para abir a conexão com o banco de dados do MsSQL --> con.ConnectionString = @"Data Source=DESKTOP-DFKVC4V\SQLEXPRESS;Initial Catalog=sgc;Integrated Security=True;";
         }
-        public SqlConnection conectar()
+
+        // Verifica se o banco de dados está fechado, se sim ele abre uma conexão com a database
+        public MySqlConnection conectar()
         {
             if(con.State == System.Data.ConnectionState.Closed)
             {
@@ -25,6 +22,8 @@ namespace Sistema_de_Gestão_Auxiliar_em_Condominios.DAL
             }
             return con;
         }
+
+        // Verifica se o banco de dados está aberto, se sim ele fecha a conexão com a database
         public void desconectar()
         {
             if (con.State == System.Data.ConnectionState.Open)

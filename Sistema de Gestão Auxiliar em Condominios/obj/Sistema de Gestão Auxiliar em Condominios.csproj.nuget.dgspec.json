@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeanl\\source\\repos\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj": {}
+    "C:\\Users\\jeanl\\Downloads\\sistema-gerenciamento-condominio-main\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeanl\\source\\repos\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj": {
+    "C:\\Users\\jeanl\\Downloads\\sistema-gerenciamento-condominio-main\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeanl\\source\\repos\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj",
+        "projectUniqueName": "C:\\Users\\jeanl\\Downloads\\sistema-gerenciamento-condominio-main\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj",
         "projectName": "Sistema de Gestão Auxiliar em Condominios",
-        "projectPath": "C:\\Users\\jeanl\\source\\repos\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj",
+        "projectPath": "C:\\Users\\jeanl\\Downloads\\sistema-gerenciamento-condominio-main\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj",
         "packagesPath": "C:\\Users\\jeanl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeanl\\source\\repos\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios\\obj\\",
+        "outputPath": "C:\\Users\\jeanl\\Downloads\\sistema-gerenciamento-condominio-main\\Sistema de Gestão Auxiliar em Condominios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

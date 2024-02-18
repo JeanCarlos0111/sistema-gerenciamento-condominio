@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6xRf1VKeaahQe6dDz728nf/8maHZ4PCWOoXlOKP70ru7VhZHBDc6OoE4bTP1OGbQhx0zcJq329qQcGqvaG4U+A==",
+  "dgSpecHash": "kLMI6gqKsxv9qBNeAj3dyyCFs/jpV/prvxsTnDBphdDI3rHG6tIWN9e7i3sm2O6m2Qu4rkLYQW8VaNAUukpYGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jeanl\\source\\repos\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj",
+  "projectFilePath": "C:\\Users\\jeanl\\Downloads\\sistema-gerenciamento-condominio-main\\Sistema de Gestão Auxiliar em Condominios\\Sistema de Gestão Auxiliar em Condominios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jeanl\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\jeanl\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

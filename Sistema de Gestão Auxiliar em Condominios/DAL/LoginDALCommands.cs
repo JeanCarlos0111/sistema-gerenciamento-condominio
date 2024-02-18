@@ -1,10 +1,4 @@
 ﻿using MySql.Data.MySqlClient;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Sistema_de_Gestão_Auxiliar_em_Condominios.DAL
 {
@@ -13,12 +7,12 @@ namespace Sistema_de_Gestão_Auxiliar_em_Condominios.DAL
 
         public bool tem = false;
         public String mensagem = "";
-        SqlCommand cmd = new SqlCommand();
+        MySqlCommand cmd = new MySqlCommand();
         Conexao con = new Conexao();
-        SqlDataReader dr;
+        MySqlDataReader dr;
         public bool verificarLogin(string login, string senha)
         {
-            //validates login in the MySQL database
+            // Valida os dados de login e senha na database
             cmd.CommandText = "select * from usuario where login = @login and senha = @senha";
             cmd.Parameters.AddWithValue("@login", login);
             cmd.Parameters.AddWithValue("@senha", senha);
@@ -31,7 +25,8 @@ namespace Sistema_de_Gestão_Auxiliar_em_Condominios.DAL
                     tem = true;
                 }
             }
-            catch (SqlException)
+            // Exceção para caso ocorra erro de comunicação com a database
+            catch (MySqlException)
             {
                 this.mensagem = "Erro com banco de dados";
             }
